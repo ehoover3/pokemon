@@ -1,0 +1,40 @@
+/* BattleScreen.css */
+.battle-screen {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.battle-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.battle-info .pokemon {
+  width: 200px;
+}
+
+.battle-info img {
+  max-width: 150px;
+  margin: 10px auto;
+  display: block;
+}
+
+.battle-screen button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.battle-screen button:hover {
+  background-color: #0056b3;
+}
